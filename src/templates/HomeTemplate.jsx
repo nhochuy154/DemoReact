@@ -24,6 +24,10 @@ const arrNavLink = [
     title: "ProductCard",
     to: "/productcard",
   },
+  {
+    title: "DanhSachSanPham ",
+    to: "/danh-sach-san-pham",
+  },
 ];
 const HomeTemplate = () => {
   const {

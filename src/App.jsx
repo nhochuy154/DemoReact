@@ -12,6 +12,7 @@ import DemoTemplate from "./templates/DemoTemplate.jsx";
 import HomeTemplate from "./templates/HomeTemplate.jsx";
 import NotFound from "./pages/NotFound.jsx";
 import ProductDetail from "./pages/productDetail/ProductDetail.jsx";
+import DanhSachSanPham from "./pages/LiftingStateUp/DanhSachSanPham.jsx";
 
 // BEM (Block Element Modifier)
 function App() {
@@ -76,6 +77,10 @@ function App() {
         {
           path: "/productcard",
           element: <ProductCard products={products} />,
+        },
+        {
+          path: "/danh-sach-san-pham",
+          element: <DanhSachSanPham />,
         },
       ],
     },
