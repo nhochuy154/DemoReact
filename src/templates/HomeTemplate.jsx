@@ -28,6 +28,10 @@ const arrNavLink = [
     title: "DanhSachSanPham ",
     to: "/danh-sach-san-pham",
   },
+  {
+    title: "DemoRedux",
+    to: "/demo-redux",
+  },
 ];
 const HomeTemplate = () => {
   const {

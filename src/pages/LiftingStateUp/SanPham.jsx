@@ -1,7 +1,7 @@
 import React from "react";
 
 const SanPham = (props) => {
-  const { sp, handleChangeSP, themGioHang } = props;
+  const { sp, xemChiTiet, themGioHang } = props;
   return (
     <div className="max-w-sm mx-auto my-5 bg-white shadow-lg rounded-2xl overflow-hidden border border-gray-200">
       <img
@@ -18,9 +18,7 @@ const SanPham = (props) => {
           {sp.cameraSau}
         </p>
         <button
-          onClick={() => {
-            handleChangeSP(sp);
-          }}
+          onClick={xemChiTiet}
           className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition duration-300"
         >
           Xem thêm

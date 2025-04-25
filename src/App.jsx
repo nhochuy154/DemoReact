@@ -13,6 +13,7 @@ import HomeTemplate from "./templates/HomeTemplate.jsx";
 import NotFound from "./pages/NotFound.jsx";
 import ProductDetail from "./pages/productDetail/ProductDetail.jsx";
 import DanhSachSanPham from "./pages/LiftingStateUp/DanhSachSanPham.jsx";
+import DemoRedux from "./pages/demoRedux/DemoRedux.jsx";
 
 // BEM (Block Element Modifier)
 function App() {
@@ -81,6 +82,10 @@ function App() {
         {
           path: "/danh-sach-san-pham",
           element: <DanhSachSanPham />,
+        },
+        {
+          path: "/demo-redux",
+          element: <DemoRedux />,
         },
       ],
     },
