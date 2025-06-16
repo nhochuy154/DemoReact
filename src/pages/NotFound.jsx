@@ -7,7 +7,7 @@ const NotFound = () => {
         Lỗi 404 Web site không tồn tại
       </h1>
       <Link to="/" className="py-2 px-5 bg-amber-500 ">
-        Quay về trang chủ
+        Quay về trang chủ hello
       </Link>
     </div>
   );
